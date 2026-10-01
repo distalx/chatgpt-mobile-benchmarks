@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "suite": "Project OpenProbe Mobile Benchmark",
+  "version": "1.0.0",
+  "target_hardware": {
+    "device": "iPhone 18 Pro",
+    "runtime": "ChatGPT iOS Native Client",
+    "interface": "Multimodal Sensor & API Layer"
+  },
+  "evaluation_tracks": [
+    {
+      "track_id": "M-01",
+      "name": "Live Video Ingestion Latency",
+      "primary_metric": "time_to_first_audio_token_ms",
+      "baseline_target": "<500ms",
+      "logging_interval": "daily"
+    },
+    {
+      "track_id": "M-02",
+      "name": "Physical World Spatial Grounding",
+      "primary_metric": "coordinate_accuracy_percentage",
+      "baseline_target": ">90%",
+      "logging_interval": "daily"
+    },
+    {
+      "track_id": "M-03",
+      "name": "Mobile Agent Tool Invocation",
+      "primary_metric": "task_completion_success_rate",
+      "baseline_target": ">85%",
+      "logging_interval": "daily"
+    }
+  ]
+}
