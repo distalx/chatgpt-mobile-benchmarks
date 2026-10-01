@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If using this evaluation schema or telemetry suite, cite it as below."
+authors:
+  - alias: "distalx"
+title: "Project OpenProbe: Daily Multimodal Agent Reliability Benchmark"
+version: 0.1.0
+date-released: 2026-10-01
+repository-code: "https://github.com/distalx/chatgpt-mobile-benchmarks"
+license: "MIT"
